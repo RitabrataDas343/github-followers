@@ -59,6 +59,10 @@ if followers and following:
         print(i, j)
         i = i+1
 
+    with open('killthem.txt', 'w') as file:
+        for item in list2:
+            file.write(f"{item}\n")
+
 
 
 
